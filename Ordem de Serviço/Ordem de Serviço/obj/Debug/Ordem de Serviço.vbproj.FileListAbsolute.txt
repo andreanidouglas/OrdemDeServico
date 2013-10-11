@@ -1,0 +1,15 @@
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.exe.config
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.exe
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.pdb
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.xml
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Login.resources
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Resources.resources
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.vbproj.GenerateResource.Cache
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.exe
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.xml
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.pdb
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Principal.resources
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Incluir_OS.resources
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Alterar_maquinario.resources
+c:\users\guilherme\documents\visual studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Incluir_maquinario.resources
+C:\Users\Guilherme\Documents\Visual Studio 2012\Projects\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Alterar_OS.resources
