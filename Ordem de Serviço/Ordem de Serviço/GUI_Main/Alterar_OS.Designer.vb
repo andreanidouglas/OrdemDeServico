@@ -47,36 +47,40 @@ Partial Class Alterar_OS
         '
         'os_alterar_mask_valor
         '
-        Me.os_alterar_mask_valor.Location = New System.Drawing.Point(52, 123)
+        Me.os_alterar_mask_valor.Location = New System.Drawing.Point(69, 151)
+        Me.os_alterar_mask_valor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_mask_valor.Mask = "$999,999.00"
         Me.os_alterar_mask_valor.Name = "os_alterar_mask_valor"
-        Me.os_alterar_mask_valor.Size = New System.Drawing.Size(120, 20)
+        Me.os_alterar_mask_valor.Size = New System.Drawing.Size(159, 22)
         Me.os_alterar_mask_valor.TabIndex = 38
         Me.os_alterar_mask_valor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(12, 126)
+        Me.Label7.Location = New System.Drawing.Point(16, 155)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(34, 13)
+        Me.Label7.Size = New System.Drawing.Size(45, 17)
         Me.Label7.TabIndex = 37
         Me.Label7.Text = "Valor:"
         '
         'os_alterar_excluir_peca
         '
-        Me.os_alterar_excluir_peca.Location = New System.Drawing.Point(210, 121)
+        Me.os_alterar_excluir_peca.Location = New System.Drawing.Point(280, 149)
+        Me.os_alterar_excluir_peca.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_excluir_peca.Name = "os_alterar_excluir_peca"
-        Me.os_alterar_excluir_peca.Size = New System.Drawing.Size(75, 23)
+        Me.os_alterar_excluir_peca.Size = New System.Drawing.Size(100, 28)
         Me.os_alterar_excluir_peca.TabIndex = 36
         Me.os_alterar_excluir_peca.Text = "Excluir"
         Me.os_alterar_excluir_peca.UseVisualStyleBackColor = True
         '
         'os_alterar_editar_peca
         '
-        Me.os_alterar_editar_peca.Location = New System.Drawing.Point(291, 121)
+        Me.os_alterar_editar_peca.Location = New System.Drawing.Point(388, 149)
+        Me.os_alterar_editar_peca.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_editar_peca.Name = "os_alterar_editar_peca"
-        Me.os_alterar_editar_peca.Size = New System.Drawing.Size(75, 23)
+        Me.os_alterar_editar_peca.Size = New System.Drawing.Size(100, 28)
         Me.os_alterar_editar_peca.TabIndex = 35
         Me.os_alterar_editar_peca.Text = "Editar"
         Me.os_alterar_editar_peca.UseVisualStyleBackColor = True
@@ -85,24 +89,28 @@ Partial Class Alterar_OS
         '
         Me.os_alterar_pecas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.os_alterar_pecas.FormattingEnabled = True
-        Me.os_alterar_pecas.Location = New System.Drawing.Point(53, 94)
+        Me.os_alterar_pecas.Location = New System.Drawing.Point(71, 116)
+        Me.os_alterar_pecas.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_pecas.Name = "os_alterar_pecas"
-        Me.os_alterar_pecas.Size = New System.Drawing.Size(394, 21)
+        Me.os_alterar_pecas.Size = New System.Drawing.Size(524, 24)
         Me.os_alterar_pecas.TabIndex = 34
         '
         'os_alterar_lista_pecas
         '
         Me.os_alterar_lista_pecas.FormattingEnabled = True
-        Me.os_alterar_lista_pecas.Location = New System.Drawing.Point(12, 150)
+        Me.os_alterar_lista_pecas.ItemHeight = 16
+        Me.os_alterar_lista_pecas.Location = New System.Drawing.Point(16, 185)
+        Me.os_alterar_lista_pecas.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_lista_pecas.Name = "os_alterar_lista_pecas"
-        Me.os_alterar_lista_pecas.Size = New System.Drawing.Size(435, 95)
+        Me.os_alterar_lista_pecas.Size = New System.Drawing.Size(579, 116)
         Me.os_alterar_lista_pecas.TabIndex = 33
         '
         'os_alterar_incluir_peca
         '
-        Me.os_alterar_incluir_peca.Location = New System.Drawing.Point(372, 121)
+        Me.os_alterar_incluir_peca.Location = New System.Drawing.Point(496, 149)
+        Me.os_alterar_incluir_peca.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_incluir_peca.Name = "os_alterar_incluir_peca"
-        Me.os_alterar_incluir_peca.Size = New System.Drawing.Size(75, 23)
+        Me.os_alterar_incluir_peca.Size = New System.Drawing.Size(100, 28)
         Me.os_alterar_incluir_peca.TabIndex = 26
         Me.os_alterar_incluir_peca.Text = "Incluir"
         Me.os_alterar_incluir_peca.UseVisualStyleBackColor = True
@@ -110,9 +118,10 @@ Partial Class Alterar_OS
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(12, 97)
+        Me.Label6.Location = New System.Drawing.Point(16, 119)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(35, 13)
+        Me.Label6.Size = New System.Drawing.Size(44, 17)
         Me.Label6.TabIndex = 32
         Me.Label6.Text = "Peça:"
         '
@@ -120,26 +129,29 @@ Partial Class Alterar_OS
         '
         Me.os_alterar_maquina.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.os_alterar_maquina.FormattingEnabled = True
-        Me.os_alterar_maquina.Location = New System.Drawing.Point(69, 67)
+        Me.os_alterar_maquina.Location = New System.Drawing.Point(92, 82)
+        Me.os_alterar_maquina.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_maquina.Name = "os_alterar_maquina"
-        Me.os_alterar_maquina.Size = New System.Drawing.Size(378, 21)
+        Me.os_alterar_maquina.Size = New System.Drawing.Size(503, 24)
         Me.os_alterar_maquina.TabIndex = 24
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(12, 70)
+        Me.Label5.Location = New System.Drawing.Point(16, 86)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 13)
+        Me.Label5.Size = New System.Drawing.Size(66, 17)
         Me.Label5.TabIndex = 31
         Me.Label5.Text = "Maquina:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(223, 47)
+        Me.Label4.Location = New System.Drawing.Point(297, 58)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(110, 13)
+        Me.Label4.Size = New System.Drawing.Size(144, 17)
         Me.Label4.TabIndex = 30
         Me.Label4.Text = "Data de Fechamento:"
         '
@@ -147,17 +159,19 @@ Partial Class Alterar_OS
         '
         Me.os_alterar_data_fechamento.Enabled = False
         Me.os_alterar_data_fechamento.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.os_alterar_data_fechamento.Location = New System.Drawing.Point(339, 41)
+        Me.os_alterar_data_fechamento.Location = New System.Drawing.Point(452, 50)
+        Me.os_alterar_data_fechamento.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_data_fechamento.Name = "os_alterar_data_fechamento"
-        Me.os_alterar_data_fechamento.Size = New System.Drawing.Size(108, 20)
+        Me.os_alterar_data_fechamento.Size = New System.Drawing.Size(143, 22)
         Me.os_alterar_data_fechamento.TabIndex = 29
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 47)
+        Me.Label3.Location = New System.Drawing.Point(16, 58)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(91, 13)
+        Me.Label3.Size = New System.Drawing.Size(121, 17)
         Me.Label3.TabIndex = 28
         Me.Label3.Text = "Data de Abertura:"
         '
@@ -165,9 +179,10 @@ Partial Class Alterar_OS
         '
         Me.os_alterar_estado.Enabled = False
         Me.os_alterar_estado.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.os_alterar_estado.Location = New System.Drawing.Point(260, 15)
+        Me.os_alterar_estado.Location = New System.Drawing.Point(347, 18)
+        Me.os_alterar_estado.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_estado.Name = "os_alterar_estado"
-        Me.os_alterar_estado.Size = New System.Drawing.Size(187, 20)
+        Me.os_alterar_estado.Size = New System.Drawing.Size(248, 23)
         Me.os_alterar_estado.TabIndex = 27
         Me.os_alterar_estado.Text = "ABERTURA"
         Me.os_alterar_estado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -175,52 +190,58 @@ Partial Class Alterar_OS
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(178, 18)
+        Me.Label2.Location = New System.Drawing.Point(237, 22)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(76, 13)
+        Me.Label2.Size = New System.Drawing.Size(100, 17)
         Me.Label2.TabIndex = 25
         Me.Label2.Text = "Estado da OS:"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 18)
+        Me.Label1.Location = New System.Drawing.Point(16, 22)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
+        Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 23
         Me.Label1.Text = "Código:"
         '
         'os_alterar_codigo
         '
         Me.os_alterar_codigo.Enabled = False
-        Me.os_alterar_codigo.Location = New System.Drawing.Point(61, 15)
+        Me.os_alterar_codigo.Location = New System.Drawing.Point(81, 18)
+        Me.os_alterar_codigo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_codigo.Name = "os_alterar_codigo"
-        Me.os_alterar_codigo.Size = New System.Drawing.Size(111, 20)
+        Me.os_alterar_codigo.Size = New System.Drawing.Size(147, 22)
         Me.os_alterar_codigo.TabIndex = 22
         '
         'os_alterar_data_abertura
         '
         Me.os_alterar_data_abertura.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.os_alterar_data_abertura.Location = New System.Drawing.Point(109, 41)
+        Me.os_alterar_data_abertura.Location = New System.Drawing.Point(145, 50)
+        Me.os_alterar_data_abertura.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_data_abertura.Name = "os_alterar_data_abertura"
-        Me.os_alterar_data_abertura.Size = New System.Drawing.Size(108, 20)
+        Me.os_alterar_data_abertura.Size = New System.Drawing.Size(143, 22)
         Me.os_alterar_data_abertura.TabIndex = 21
         '
         'os_alterar_excluir
         '
         Me.os_alterar_excluir.Enabled = False
-        Me.os_alterar_excluir.Location = New System.Drawing.Point(291, 251)
+        Me.os_alterar_excluir.Location = New System.Drawing.Point(388, 309)
+        Me.os_alterar_excluir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_excluir.Name = "os_alterar_excluir"
-        Me.os_alterar_excluir.Size = New System.Drawing.Size(75, 23)
+        Me.os_alterar_excluir.Size = New System.Drawing.Size(100, 28)
         Me.os_alterar_excluir.TabIndex = 43
         Me.os_alterar_excluir.Text = "Excluir"
         Me.os_alterar_excluir.UseVisualStyleBackColor = True
         '
         'os_alterar_alterar
         '
-        Me.os_alterar_alterar.Location = New System.Drawing.Point(210, 251)
+        Me.os_alterar_alterar.Location = New System.Drawing.Point(280, 309)
+        Me.os_alterar_alterar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_alterar.Name = "os_alterar_alterar"
-        Me.os_alterar_alterar.Size = New System.Drawing.Size(75, 23)
+        Me.os_alterar_alterar.Size = New System.Drawing.Size(100, 28)
         Me.os_alterar_alterar.TabIndex = 42
         Me.os_alterar_alterar.Text = "Alterar"
         Me.os_alterar_alterar.UseVisualStyleBackColor = True
@@ -228,18 +249,19 @@ Partial Class Alterar_OS
         'os_alterar_salvar
         '
         Me.os_alterar_salvar.Enabled = False
-        Me.os_alterar_salvar.Location = New System.Drawing.Point(371, 251)
+        Me.os_alterar_salvar.Location = New System.Drawing.Point(495, 309)
+        Me.os_alterar_salvar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.os_alterar_salvar.Name = "os_alterar_salvar"
-        Me.os_alterar_salvar.Size = New System.Drawing.Size(75, 23)
+        Me.os_alterar_salvar.Size = New System.Drawing.Size(100, 28)
         Me.os_alterar_salvar.TabIndex = 41
         Me.os_alterar_salvar.Text = "Salvar"
         Me.os_alterar_salvar.UseVisualStyleBackColor = True
         '
         'Alterar_OS
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(458, 283)
+        Me.ClientSize = New System.Drawing.Size(611, 348)
         Me.Controls.Add(Me.os_alterar_excluir)
         Me.Controls.Add(Me.os_alterar_alterar)
         Me.Controls.Add(Me.os_alterar_salvar)
@@ -262,6 +284,7 @@ Partial Class Alterar_OS
         Me.Controls.Add(Me.os_alterar_codigo)
         Me.Controls.Add(Me.os_alterar_data_abertura)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Alterar_OS"

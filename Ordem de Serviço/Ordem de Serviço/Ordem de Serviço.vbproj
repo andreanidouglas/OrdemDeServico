@@ -71,34 +71,37 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alterar_maquinario.Designer.vb">
+    <Compile Include="Acessos_Classes\NivelDeAcesso.vb" />
+    <Compile Include="Acessos_Classes\Usuarios.vb" />
+    <Compile Include="Controller_Classes\TratadorDeOrdemDeServico.vb" />
+    <Compile Include="GUI_Main\Alterar_maquinario.Designer.vb">
       <DependentUpon>Alterar_maquinario.vb</DependentUpon>
     </Compile>
-    <Compile Include="Alterar_maquinario.vb">
+    <Compile Include="GUI_Main\Alterar_maquinario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Alterar_OS.Designer.vb">
+    <Compile Include="GUI_Main\Alterar_OS.Designer.vb">
       <DependentUpon>Alterar_OS.vb</DependentUpon>
     </Compile>
-    <Compile Include="Alterar_OS.vb">
+    <Compile Include="GUI_Main\Alterar_OS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Incluir_OS.Designer.vb">
+    <Compile Include="GUI_Main\Incluir_OS.Designer.vb">
       <DependentUpon>Incluir_OS.vb</DependentUpon>
     </Compile>
-    <Compile Include="Incluir_OS.vb">
+    <Compile Include="GUI_Main\Incluir_OS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Incluir_maquinario.Designer.vb">
+    <Compile Include="GUI_Main\Incluir_maquinario.Designer.vb">
       <DependentUpon>Incluir_maquinario.vb</DependentUpon>
     </Compile>
-    <Compile Include="Incluir_maquinario.vb">
+    <Compile Include="GUI_Main\Incluir_maquinario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.vb">
+    <Compile Include="GUI_Main\Login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.vb">
+    <Compile Include="GUI_Main\Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
@@ -117,27 +120,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Principal.Designer.vb">
+    <Compile Include="GUI_Main\Principal.Designer.vb">
       <DependentUpon>Principal.vb</DependentUpon>
     </Compile>
-    <Compile Include="Principal.vb">
+    <Compile Include="GUI_Main\Principal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="OrdemServico_Classes\Items.vb" />
+    <Compile Include="OrdemServico_Classes\Maquinas.vb" />
+    <Compile Include="OrdemServico_Classes\OrdemServico_Header.vb" />
+    <Compile Include="OrdemServico_Classes\OrdemServico_Lines.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Alterar_maquinario.resx">
+    <EmbeddedResource Include="GUI_Main\Alterar_maquinario.resx">
       <DependentUpon>Alterar_maquinario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Alterar_OS.resx">
+    <EmbeddedResource Include="GUI_Main\Alterar_OS.resx">
       <DependentUpon>Alterar_OS.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Incluir_OS.resx">
+    <EmbeddedResource Include="GUI_Main\Incluir_OS.resx">
       <DependentUpon>Incluir_OS.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Incluir_maquinario.resx">
+    <EmbeddedResource Include="GUI_Main\Incluir_maquinario.resx">
       <DependentUpon>Incluir_maquinario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="GUI_Main\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -146,7 +153,7 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
+    <EmbeddedResource Include="GUI_Main\Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -160,7 +167,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
+    <None Include="GUI_Main\App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

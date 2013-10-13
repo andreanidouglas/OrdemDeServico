@@ -17,3 +17,14 @@ C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Or
 C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.exe
 C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.xml
 C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.pdb
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.exe
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.pdb
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.xml
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Alterar_maquinario.resources
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Alterar_OS.resources
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Incluir_OS.resources
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Incluir_maquinario.resources
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Login.resources
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Resources.resources
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Principal.resources
+C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.vbproj.GenerateResource.Cache
