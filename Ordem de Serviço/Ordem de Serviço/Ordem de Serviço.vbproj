@@ -73,29 +73,36 @@
   <ItemGroup>
     <Compile Include="Acessos_Classes\NivelDeAcesso.vb" />
     <Compile Include="Acessos_Classes\Usuarios.vb" />
+    <Compile Include="Controller_Classes\ControladorDeAcessos.vb" />
     <Compile Include="Controller_Classes\TratadorDeOrdemDeServico.vb" />
-    <Compile Include="GUI_Main\Alterar_maquinario.Designer.vb">
+    <Compile Include="GUI_Main\Administrativo\Data_base.Designer.vb">
+      <DependentUpon>Data_base.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Main\Administrativo\Data_base.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Main\Maquinario\Alterar_maquinario.Designer.vb">
       <DependentUpon>Alterar_maquinario.vb</DependentUpon>
     </Compile>
-    <Compile Include="GUI_Main\Alterar_maquinario.vb">
+    <Compile Include="GUI_Main\Maquinario\Alterar_maquinario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI_Main\Alterar_OS.Designer.vb">
+    <Compile Include="GUI_Main\OS\Alterar_OS.Designer.vb">
       <DependentUpon>Alterar_OS.vb</DependentUpon>
     </Compile>
-    <Compile Include="GUI_Main\Alterar_OS.vb">
+    <Compile Include="GUI_Main\OS\Alterar_OS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI_Main\Incluir_OS.Designer.vb">
+    <Compile Include="GUI_Main\OS\Incluir_OS.Designer.vb">
       <DependentUpon>Incluir_OS.vb</DependentUpon>
     </Compile>
-    <Compile Include="GUI_Main\Incluir_OS.vb">
+    <Compile Include="GUI_Main\OS\Incluir_OS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI_Main\Incluir_maquinario.Designer.vb">
+    <Compile Include="GUI_Main\Maquinario\Incluir_maquinario.Designer.vb">
       <DependentUpon>Incluir_maquinario.vb</DependentUpon>
     </Compile>
-    <Compile Include="GUI_Main\Incluir_maquinario.vb">
+    <Compile Include="GUI_Main\Maquinario\Incluir_maquinario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI_Main\Login.vb">
@@ -132,16 +139,19 @@
     <Compile Include="OrdemServico_Classes\OrdemServico_Lines.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="GUI_Main\Alterar_maquinario.resx">
+    <EmbeddedResource Include="GUI_Main\Administrativo\Data_base.resx">
+      <DependentUpon>Data_base.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Main\Maquinario\Alterar_maquinario.resx">
       <DependentUpon>Alterar_maquinario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI_Main\Alterar_OS.resx">
+    <EmbeddedResource Include="GUI_Main\OS\Alterar_OS.resx">
       <DependentUpon>Alterar_OS.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI_Main\Incluir_OS.resx">
+    <EmbeddedResource Include="GUI_Main\OS\Incluir_OS.resx">
       <DependentUpon>Incluir_OS.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI_Main\Incluir_maquinario.resx">
+    <EmbeddedResource Include="GUI_Main\Maquinario\Incluir_maquinario.resx">
       <DependentUpon>Incluir_maquinario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_Main\Login.resx">
@@ -168,6 +178,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="GUI_Main\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GUI_Main\Peças\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
