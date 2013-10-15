@@ -1,7 +1,7 @@
 ﻿Public Class Principal
 
     Private Sub Principal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Login.Visible = False
+        Login.Dispose()
     End Sub
 
     Private Sub IncluirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IncluirToolStripMenuItem.Click

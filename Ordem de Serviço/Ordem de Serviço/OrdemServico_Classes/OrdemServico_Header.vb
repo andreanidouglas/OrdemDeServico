@@ -107,5 +107,29 @@ Public Class OrdemServico_Header
         Next
     End Sub
 
+    Public Sub GravarOS_DB()
+        Dim cdb As ConectorBancoDeDados
+        cdb = New ConectorBancoDeDados()
+        cdb.NoReturnQuery("Insert into `so_header` (`codigo_os`, `creation_date`, `last_update_date`, `last_update_by`, `status`, `maquina_id`, `comments`)" + _
+                                           "values ('" + Me.Codigo + "'" + _
+                                                   "'" + Me.DataDeCriacao + "' " + _
+                                                   "'" + Me.DataDaUltimaAtulizacao + "' " + _
+                                                   "'" + Me.UsuarioDaUltimaAtualizacao.username + "' " + _
+                                                   "'" + Me.Status + "' " + _
+                                                   "'" + Me.Maquina.codigo + "' " + _
+                                                   "'" + Me.Comentarios + "')")
 
+        ''tratar entrada de datas e criar novos objetos
+
+
+    End Sub
+
+    Public Sub AlterarOS_DB()
+        Dim cdb As ConectorBancoDeDados
+        cdb = New ConectorBancoDeDados()
+        cdb.NoReturnQuery("Update set `last_update_date` = '" + Me.DataDaUltimaAtulizacao + "', " + _
+                                      "`last_update_by` = '" + Me.UsuarioDaUltimaAtualizacao.username + "', " + _
+                                      "`status` = '" + Me.Status + "', " + _
+                                      "`comments` = '" + Me.Comentarios)
+    End Sub
 End Class

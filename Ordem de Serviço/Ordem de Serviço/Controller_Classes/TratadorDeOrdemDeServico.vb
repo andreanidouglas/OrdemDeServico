@@ -5,7 +5,6 @@
         novaOrdemDeServico = New OrdemServico_Header()
 
         maquina = Maquinas.BuscarMaquina(vCodigoMaquina)
-
         novaOrdemDeServico.Maquina = maquina
         novaOrdemDeServico.DataDeCriacao = vDataDeCriacao
         novaOrdemDeServico.Comentarios = vComentarios
