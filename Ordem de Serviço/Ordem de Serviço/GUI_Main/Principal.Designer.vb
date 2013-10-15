@@ -33,8 +33,13 @@ Partial Class Principal
         Me.RelatóriosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdministrativoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UsuáriosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BancoDeDadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrincipalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReduntanteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SobreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IncluiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AlteraExcluiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,13 +62,13 @@ Partial Class Principal
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(148, 22)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem2.Text = "&Incluir"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(148, 22)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem3.Text = "&Alterar/Excluir"
         '
         'OrdemDeServiçoToolStripMenuItem
@@ -76,19 +81,19 @@ Partial Class Principal
         'IncluirToolStripMenuItem
         '
         Me.IncluirToolStripMenuItem.Name = "IncluirToolStripMenuItem"
-        Me.IncluirToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.IncluirToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.IncluirToolStripMenuItem.Text = "&Incluir"
         '
         'AlterarToolStripMenuItem
         '
         Me.AlterarToolStripMenuItem.Name = "AlterarToolStripMenuItem"
-        Me.AlterarToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.AlterarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AlterarToolStripMenuItem.Text = "&Alterar/Excluir"
         '
         'FinalizarOSToolStripMenuItem
         '
         Me.FinalizarOSToolStripMenuItem.Name = "FinalizarOSToolStripMenuItem"
-        Me.FinalizarOSToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.FinalizarOSToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.FinalizarOSToolStripMenuItem.Text = "&Finalizar"
         '
         'RelatóriosToolStripMenuItem
@@ -99,16 +104,36 @@ Partial Class Principal
         '
         'AdministrativoToolStripMenuItem
         '
-        Me.AdministrativoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuáriosToolStripMenuItem})
+        Me.AdministrativoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuáriosToolStripMenuItem, Me.BancoDeDadosToolStripMenuItem})
         Me.AdministrativoToolStripMenuItem.Name = "AdministrativoToolStripMenuItem"
         Me.AdministrativoToolStripMenuItem.Size = New System.Drawing.Size(97, 20)
         Me.AdministrativoToolStripMenuItem.Text = "&Administrativo"
         '
         'UsuáriosToolStripMenuItem
         '
+        Me.UsuáriosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IncluiToolStripMenuItem, Me.AlteraExcluiToolStripMenuItem})
         Me.UsuáriosToolStripMenuItem.Name = "UsuáriosToolStripMenuItem"
-        Me.UsuáriosToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
+        Me.UsuáriosToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
         Me.UsuáriosToolStripMenuItem.Text = "Usuários"
+        '
+        'BancoDeDadosToolStripMenuItem
+        '
+        Me.BancoDeDadosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PrincipalToolStripMenuItem, Me.ReduntanteToolStripMenuItem})
+        Me.BancoDeDadosToolStripMenuItem.Name = "BancoDeDadosToolStripMenuItem"
+        Me.BancoDeDadosToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.BancoDeDadosToolStripMenuItem.Text = "Banco de dados"
+        '
+        'PrincipalToolStripMenuItem
+        '
+        Me.PrincipalToolStripMenuItem.Name = "PrincipalToolStripMenuItem"
+        Me.PrincipalToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PrincipalToolStripMenuItem.Text = "Principal"
+        '
+        'ReduntanteToolStripMenuItem
+        '
+        Me.ReduntanteToolStripMenuItem.Name = "ReduntanteToolStripMenuItem"
+        Me.ReduntanteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ReduntanteToolStripMenuItem.Text = "Backup"
         '
         'HelpToolStripMenuItem
         '
@@ -120,8 +145,20 @@ Partial Class Principal
         'SobreToolStripMenuItem
         '
         Me.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem"
-        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(104, 22)
+        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SobreToolStripMenuItem.Text = "&Sobre"
+        '
+        'IncluiToolStripMenuItem
+        '
+        Me.IncluiToolStripMenuItem.Name = "IncluiToolStripMenuItem"
+        Me.IncluiToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IncluiToolStripMenuItem.Text = "Inclui"
+        '
+        'AlteraExcluiToolStripMenuItem
+        '
+        Me.AlteraExcluiToolStripMenuItem.Name = "AlteraExcluiToolStripMenuItem"
+        Me.AlteraExcluiToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AlteraExcluiToolStripMenuItem.Text = "Altera/Exclui"
         '
         'Principal
         '
@@ -155,4 +192,9 @@ Partial Class Principal
     Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents IncluirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AlterarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BancoDeDadosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PrincipalToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ReduntanteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IncluiToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AlteraExcluiToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

@@ -28,3 +28,19 @@ C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Or
 C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Resources.resources
 C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Principal.resources
 C:\Users\Doug\LC\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.vbproj.GenerateResource.Cache
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.exe.config
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.exe
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.xml
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.pdb
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.exe
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.pdb
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\bin\Debug\Ordem de Serviço.xml
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Alterar_maquinario.resources
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Alterar_OS.resources
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Incluir_OS.resources
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Incluir_maquinario.resources
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Login.resources
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Resources.resources
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Principal.resources
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem de Serviço.vbproj.GenerateResource.Cache
+C:\Users\Guilherme\Documents\GitHub\OrdemServicoLC\Ordem de Serviço\Ordem de Serviço\obj\Debug\Ordem_de_Serviço.Data_base.resources
